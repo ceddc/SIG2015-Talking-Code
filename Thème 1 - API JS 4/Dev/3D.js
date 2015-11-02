@@ -190,7 +190,7 @@ function(esriConfig, Map, SceneView, Camera,
                              symbolLayers: [new ExtrudeSymbol3DLayer()]
                          }),
                          visualVariables: [{
-                             type: "sizeInfo",
+                             type: 'sizeInfo',
                              field: "height",
                              minDataValue: 0,
                              maxDataValue: 300,
